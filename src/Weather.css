@@ -1,0 +1,30 @@
+.Weather{
+    border: 1px solid ;
+    font-family: arial, sans-serif;
+    color: #878787;
+    color: rgb(135, 135, 135);
+    padding: 16px;
+    margin: 30px auto;
+    border-radius: 6px;
+    
+}
+
+.Weather h1{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    margin: 20px 0 0 0;
+}
+
+
+.waether ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Weather li{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    list-style: none;
+}
