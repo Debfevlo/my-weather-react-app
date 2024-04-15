@@ -10,7 +10,9 @@ export default function Weather(){
                     <input 
                     type='search' 
                     placeholder='Search for city...' 
-                    className='form-control'/>
+                    className='form-control'
+                    autoFocus='on'
+                    />
                     </div>
                 
                     <div className='col-3'>
@@ -21,18 +23,26 @@ export default function Weather(){
                     </div>
                 </div>
             </form>
+
             <h1>New York</h1>
+
             <ul>
-                <li>Wednesday 07:00</li>
-                <li>Mostly Cloudy</li>
+            <li>Wednesday 07:00</li>
+            <li>Mostly Cloudy</li>
             </ul>
 
-            <div className='row'>
+            <div className='row mt-4'>
                 <div className='col-6'>
-                    <img src='https://ssl.gstatic.com/onebox/weather/64/sunny.png' alt='Sunny'>
-                    </img>
-                    16°C
+                    
+                   
+                    <img src='https://ssl.gstatic.com/onebox/weather/64/sunny.png' alt='Sunny' className='mb-4'/>
+
+                
+                   <span className='temperature'>16</span>
+                   <span className='unit'>°C</span> 
                 </div>
+                
+                
 
                 <div className='col-6'>
                     <ul>

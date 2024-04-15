@@ -10,7 +10,6 @@ export default function App() {
           This project was coded by {''}
           <a href='https://github.com/Debfevlo/my-weather-react-app' target='_blank' rel='noreferrer'>Fvelo Deborah</a>{''}
           and is{''}
-
         </footer>
       </div>
       
