@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import SearchingDate from './SearchingDate';
 import axios from 'axios';
 import './Weather.css'
 
@@ -14,7 +15,7 @@ export default function Weather(props){
             temperature:response.data.temperature.current,
             humidity:response.data.temperature.humidity,
             city:response.data.city,
-            date:'Wednesday 07:00',
+            date: new Date(response.data.time *1000),
             descriptions: response.data.condition.description,
             wind:response.data.wind.speed,
             icon_url:'https://ssl.gstatic.com/onebox/weather/64/cloudy.png',
@@ -51,7 +52,7 @@ export default function Weather(props){
             <h1>{weatherData.city}</h1>
 
             <ul>
-            <li>{weatherData.date}</li>
+            <li> < SearchingDate date={weatherData.date}/> </li>
             <li>{weatherData.descriptions}</li>
             </ul>
 
