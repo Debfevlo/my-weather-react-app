@@ -3,11 +3,11 @@ import React from 'react';
 export default function WeatherForecastDay(props){
     function day(){
         let date = new Date(props.dayforecast.time * 1000)
-        let day = date.getDate();
+        let day = date.getDay();
 
         let days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
-        return day;
+        return days[day];
     }
     return(
         <div>
