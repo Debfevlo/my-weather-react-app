@@ -8,7 +8,7 @@ export default function App() {
         <Weather defaultCity='Paris'/>
         <footer>
           This project was coded by {''}
-          <a href='https://github.com/Debfevlo/my-weather-react-app' target='_blank' rel='noreferrer'>Fvelo Deborah</a>{''}
+          <a href='https://github.com/Debfevlo/my-weather-react-app' target='_blank' rel='noopener noreferrer'>Fvelo Deborah</a>{''}
           and is{''}
         </footer>
       </div>

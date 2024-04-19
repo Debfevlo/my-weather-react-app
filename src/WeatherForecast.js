@@ -7,11 +7,8 @@ import WeatherForecastDay from './WeatherForecastDay';
 export default function WeatherForecast(props){
     let [loaded, setLoaded] = useState(false);
     let [forecast, setForecast] = useState(null)
-
-    
-
     function handleResponse(response){
-        setForecast(response.weatherData)
+        setForecast(response.data.daily)
         setLoaded(true)
     }
     
@@ -25,9 +22,9 @@ export default function WeatherForecast(props){
                         return(
                         <div className='col' key={index}>
 
-                     <WeatherForecastDay dayforecast={dailyForecast}/>
+                    <WeatherForecastDay dayforecast={dailyForecast}/>
                 </div>
-                    );
+                    )
                     }else{
                         return null
                     }
