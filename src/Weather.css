@@ -2,7 +2,7 @@
     border: 1px solid ;
     font-family: arial, sans-serif;
     color: #878787;
-    color: rgb(135, 135, 135);
+    color: rgb(7, 6, 6);
     padding: 16px;
     margin: 30px auto;
     border-radius: 6px;
@@ -39,11 +39,11 @@
     font-size: 64px;
     font-weight: 400;
     line-height: 64px;
-    color: rgb(33, 33, 33);
+    color: rgb(7, 6, 6);
 }
 
 .Weather .unit{
-    color: rgb(33, 33, 33);
+    color: rgb(7, 6, 6);
     font-size: 16px;
     font-weight: 400;
     position: relative;

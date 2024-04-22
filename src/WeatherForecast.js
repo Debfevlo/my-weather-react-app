@@ -40,7 +40,7 @@ export default function WeatherForecast(props){
        
     }else{
          const apiKey = 'ff563b340abb1ee5o90065fc5t0af55d'
-        const apiUrl = `https://api.shecodes.io/weather/v1/forecast?query={query}&key=${apiKey}&units=metric `;
+        const apiUrl = `https://api.shecodes.io/weather/v1/forecast?query={query}&key=${apiKey}&units=metric`;
         axios.get(apiUrl).then(handleResponse)
 
         return 'Loading Forecast...';
